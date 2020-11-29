@@ -1,5 +1,5 @@
 {
-    "name": "mpcmf/mpcmf-console",
+    "name": "ildarsaitkulov/mpcmf-console",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
@@ -12,8 +12,14 @@
             "email": "gilberg.vrn@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ildarsaitkulov/mpcmf-core.git"
+        }
+    ],
     "require": {
-        "mpcmf/mpcmf-core": "dev-master",
+        "ildarsaitkulov/mpcmf-core": "dev-master",
         "wp-cli/php-cli-tools": "^0.10.4"
     },
     "autoload": {
